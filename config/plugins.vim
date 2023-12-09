@@ -3,7 +3,7 @@ function! LoadPlugin(ConfigFlag)
     Plug 'google/vim-maktaba'
     Plug 'google/vim-glaive'
     Plug 'google/vim-codefmt'
-    Plug 'niumeng07/vim-colorschemes'
+    Plug 'vimcolorschemes/vimcolorschemes'
     Plug 'Lokaltog/vim-easymotion'
     Plug 'godlygeek/tabular'  " use for alignment
     Plug 'fatih/vim-go', {'do': ':GoUpdateBinaries', 'for': 'go'}
