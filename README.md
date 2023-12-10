@@ -6,7 +6,7 @@ Most used languages: C/C++, Golang, Python2/Python3, Java/Scala, Shell, Lua, Rus
 - [google/vim-maktaba](https://github.com/google/vim-maktaba) Maktaba is a vim script plugin library 
 - [google/vim-glaive](https://github.com/google/vim-glaive) Glaive is a utility for configuring maktaba plugins 
 - [google/vim-codefmt](https://github.com/google/vim-codefmt) codefmt is a utility for syntax-aware code formatting(Support: Bazel,c,cc,Dart,css,go,java,python...) 
-- [niumeng07/vim-colorschemes](https://github.com/niumeng07/vim-colorschemes) 
+- [vimcolorschemes/vimcolorschemes](git@github.com:vimcolorschemes/vimcolorschemes.git) 
 - [Lokaltog/vim-easymotion](https://github.com/Lokaltog/vim-easymotion) 
 - [godlygeek/tabular](https://github.com/godlygeek/tabular) align tool, must come before plasticboy/vim-markdown 
 - [fatih/vim-go](https://github.com/fatih/vim-go) 
@@ -33,7 +33,7 @@ Most used languages: C/C++, Golang, Python2/Python3, Java/Scala, Shell, Lua, Rus
 ### Install 
 Install with vim-plug. 
 ```sh 
-cd ~ && /bin/rm -rf .vim && git clone https://github.com/niumeng07/vim.git .vim --recursive
+cd ~ && /bin/rm -rf .vim && git clone git@github.com:nonunu/vim.git .vim --recursive
 vim +PlugInstall 
 wget https://github.com/google/google-java-format/releases/download/google-java-format-1.9/google-java-format-1.9-all-third_party.jar ~/.vim/third_party/format
 or download latest version from https://github.com/google/google-java-format/releases/
